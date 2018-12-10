@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{720F6974-D31D-4C3C-9C37-00D877FB1F88}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC - Step 1", "IoC - Step 1", "{720F6974-D31D-4C3C-9C37-00D877FB1F88}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starter", "Starter\Starter.csproj", "{175BE5B2-2FDD-4E19-8A05-26FCE106CFC5}"
 EndProject
