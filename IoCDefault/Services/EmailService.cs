@@ -5,11 +5,16 @@ using System.Threading.Tasks;
 
 namespace IoCDefault.Services
 {
-    public class EmailService : IEmailService
+    public class EmailService<TEntity> : IEmailService<TEntity>
     {
         public void Send(String to, String message)
         {
             Console.WriteLine($"Sending email to {to} with message {message}");
+        }
+
+        public void Dispose()
+        {
+            Console.WriteLine("Shutting down mailserver");
         }
     }
 }

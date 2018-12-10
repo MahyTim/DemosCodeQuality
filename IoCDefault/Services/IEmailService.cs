@@ -1,6 +1,8 @@
-﻿namespace IoCDefault.Services
+﻿using System;
+
+namespace IoCDefault.Services
 {
-    public interface IEmailService
+    public interface IEmailService<TEntity> : IDisposable
     {
         void Send(string to, string message);
     }

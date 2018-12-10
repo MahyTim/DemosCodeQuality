@@ -11,9 +11,7 @@ namespace IoCDefault.Pages
     public class IndexModel : PageModel
     {
 
-        public IndexModel(IEmailService emailService)
-        {
-        }
+       
 
         public void OnGet()
         {
