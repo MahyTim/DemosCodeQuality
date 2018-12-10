@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC - Step 1", "IoC - Step 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starter", "Starter\Starter.csproj", "{175BE5B2-2FDD-4E19-8A05-26FCE106CFC5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ioc - Default", "Ioc - Default", "{8E54D2DF-B40C-40C2-91EA-EA0B3C99F4EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCDefault", "IoCDefault\IoCDefault.csproj", "{1906AF70-0451-4A96-8302-67605DB9C82E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{175BE5B2-2FDD-4E19-8A05-26FCE106CFC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{175BE5B2-2FDD-4E19-8A05-26FCE106CFC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{175BE5B2-2FDD-4E19-8A05-26FCE106CFC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1906AF70-0451-4A96-8302-67605DB9C82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1906AF70-0451-4A96-8302-67605DB9C82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1906AF70-0451-4A96-8302-67605DB9C82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1906AF70-0451-4A96-8302-67605DB9C82E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{175BE5B2-2FDD-4E19-8A05-26FCE106CFC5} = {720F6974-D31D-4C3C-9C37-00D877FB1F88}
+		{1906AF70-0451-4A96-8302-67605DB9C82E} = {8E54D2DF-B40C-40C2-91EA-EA0B3C99F4EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDAFBC77-4275-4E7D-AE4F-D6DB0E742664}
