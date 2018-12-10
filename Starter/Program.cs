@@ -13,7 +13,6 @@ namespace Starter
     }
 
 
-
     class Person
     {
         public string Firstname { get; set; }
@@ -30,13 +29,27 @@ namespace Starter
         {
             while (true)
             {
-                var person = new Person()
-                {
-                    Firstname = Console.ReadLine()
-                };
-                person.Lastname = new Faker<Person>("nl").RuleFor(z => z.Lastname, z => z.Name.LastName(Name.Gender.Male)).Generate().Lastname;
-                Console.WriteLine($"Hello {person}");
+
             }
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
