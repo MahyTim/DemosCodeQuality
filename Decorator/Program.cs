@@ -8,7 +8,10 @@ namespace Decorator
     {
         static void Main(string[] args)
         {
-           
+           var builder = new ContainerBuilder();
+            builder.RegisterType<Program>().AsSelf();
+            var program = builder.Build().Resolve<Func<Program>>();
+
         }
     }
 
