@@ -8,9 +8,11 @@ namespace Starter
     {
         static void Main(string[] args)
         {
-            Algorithm.Process();
+            LastNameAssigner.Process();
         }
     }
+
+
 
     class Person
     {
@@ -22,7 +24,7 @@ namespace Starter
         }
     }
 
-    class Algorithm
+    class LastNameAssigner
     {
         public static void Process()
         {
