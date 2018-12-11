@@ -15,11 +15,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC - AutoFac", "IoC - Auto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "ConsoleApp1\Adapter.csproj", "{3E186268-2152-4458-8EB8-A4FED7627A43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{39252F67-AC0A-43CC-B2DB-2B606AE3327A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{39252F67-AC0A-43CC-B2DB-2B606AE3327A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenancy", "MultiTenancy\MultiTenancy.csproj", "{20A50BB8-35A5-4EB1-B49E-418ED38009DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiTenancy", "MultiTenancy\MultiTenancy.csproj", "{20A50BB8-35A5-4EB1-B49E-418ED38009DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregateServices", "AggregateServices\AggregateServices.csproj", "{1C0D0B68-E0BD-4363-8E97-DF0F107D6C5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AggregateServices", "AggregateServices\AggregateServices.csproj", "{1C0D0B68-E0BD-4363-8E97-DF0F107D6C5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Failing Code", "Failing Code", "{C6D35BC5-008C-4ED1-A47B-66CD12C425B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FailFast", "FailFast\FailFast.csproj", "{89C2DA1E-5498-4A9A-8553-DAC3F1559FD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FailingApplication", "FailingApplication\FailingApplication.csproj", "{6F11FAAF-1A57-4242-8FF6-CA59B94F21AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,14 @@ Global
 		{1C0D0B68-E0BD-4363-8E97-DF0F107D6C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C0D0B68-E0BD-4363-8E97-DF0F107D6C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C0D0B68-E0BD-4363-8E97-DF0F107D6C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C2DA1E-5498-4A9A-8553-DAC3F1559FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C2DA1E-5498-4A9A-8553-DAC3F1559FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C2DA1E-5498-4A9A-8553-DAC3F1559FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C2DA1E-5498-4A9A-8553-DAC3F1559FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F11FAAF-1A57-4242-8FF6-CA59B94F21AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F11FAAF-1A57-4242-8FF6-CA59B94F21AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F11FAAF-1A57-4242-8FF6-CA59B94F21AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F11FAAF-1A57-4242-8FF6-CA59B94F21AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +76,8 @@ Global
 		{39252F67-AC0A-43CC-B2DB-2B606AE3327A} = {23846091-C394-48B8-9688-399945D3F464}
 		{20A50BB8-35A5-4EB1-B49E-418ED38009DF} = {23846091-C394-48B8-9688-399945D3F464}
 		{1C0D0B68-E0BD-4363-8E97-DF0F107D6C5C} = {23846091-C394-48B8-9688-399945D3F464}
+		{89C2DA1E-5498-4A9A-8553-DAC3F1559FD2} = {C6D35BC5-008C-4ED1-A47B-66CD12C425B5}
+		{6F11FAAF-1A57-4242-8FF6-CA59B94F21AA} = {C6D35BC5-008C-4ED1-A47B-66CD12C425B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDAFBC77-4275-4E7D-AE4F-D6DB0E742664}
