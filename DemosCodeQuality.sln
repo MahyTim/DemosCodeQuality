@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FailingApplication", "Faili
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FailOften", "FailOften\FailOften.csproj", "{2BC3204D-FC0D-45C4-BB77-9EFE1B2EF86D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ugly Code", "Ugly Code", "{12BF6E9E-AF37-4E09-8B86-2690CC1BCB1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primitives", "Primitives\Primitives.csproj", "{345EA746-0869-46B3-9ADD-4E6B9107274D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +75,10 @@ Global
 		{2BC3204D-FC0D-45C4-BB77-9EFE1B2EF86D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BC3204D-FC0D-45C4-BB77-9EFE1B2EF86D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BC3204D-FC0D-45C4-BB77-9EFE1B2EF86D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345EA746-0869-46B3-9ADD-4E6B9107274D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345EA746-0869-46B3-9ADD-4E6B9107274D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345EA746-0869-46B3-9ADD-4E6B9107274D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345EA746-0869-46B3-9ADD-4E6B9107274D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +93,7 @@ Global
 		{89C2DA1E-5498-4A9A-8553-DAC3F1559FD2} = {C6D35BC5-008C-4ED1-A47B-66CD12C425B5}
 		{6F11FAAF-1A57-4242-8FF6-CA59B94F21AA} = {C6D35BC5-008C-4ED1-A47B-66CD12C425B5}
 		{2BC3204D-FC0D-45C4-BB77-9EFE1B2EF86D} = {C6D35BC5-008C-4ED1-A47B-66CD12C425B5}
+		{345EA746-0869-46B3-9ADD-4E6B9107274D} = {12BF6E9E-AF37-4E09-8B86-2690CC1BCB1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDAFBC77-4275-4E7D-AE4F-D6DB0E742664}
