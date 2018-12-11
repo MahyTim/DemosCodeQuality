@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specification", "Specificat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Currying", "Currying\Currying.csproj", "{D9DD4B88-246A-48D4-AEB0-0703C35D4948}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{D34125EE-8776-47DE-8B5F-1D6A6DCB51F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeriLogDemo", "SeriLogDemo\SeriLogDemo.csproj", "{F460411D-FCAE-462A-B93F-2F0AB88E706B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +95,10 @@ Global
 		{D9DD4B88-246A-48D4-AEB0-0703C35D4948}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9DD4B88-246A-48D4-AEB0-0703C35D4948}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9DD4B88-246A-48D4-AEB0-0703C35D4948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F460411D-FCAE-462A-B93F-2F0AB88E706B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F460411D-FCAE-462A-B93F-2F0AB88E706B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F460411D-FCAE-462A-B93F-2F0AB88E706B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F460411D-FCAE-462A-B93F-2F0AB88E706B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +116,7 @@ Global
 		{345EA746-0869-46B3-9ADD-4E6B9107274D} = {12BF6E9E-AF37-4E09-8B86-2690CC1BCB1B}
 		{693BB409-A0F3-44B1-87B1-45236F2A9D68} = {12BF6E9E-AF37-4E09-8B86-2690CC1BCB1B}
 		{D9DD4B88-246A-48D4-AEB0-0703C35D4948} = {12BF6E9E-AF37-4E09-8B86-2690CC1BCB1B}
+		{F460411D-FCAE-462A-B93F-2F0AB88E706B} = {D34125EE-8776-47DE-8B5F-1D6A6DCB51F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDAFBC77-4275-4E7D-AE4F-D6DB0E742664}
