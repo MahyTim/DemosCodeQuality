@@ -10,7 +10,6 @@ namespace Primitives
         static void Main(string[] args)
         {
 
-           
         }
     }
     public class Person
@@ -19,4 +18,6 @@ namespace Primitives
         public string Name { get; set; }
         public uint Age { get; set; }
     }
+
+
 }
